@@ -10,6 +10,9 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
 
+## Tool Used
+PostgreSQL
+
 ## Dataset
 
 The data for this project is sourced from the Kaggle dataset:
@@ -238,6 +241,36 @@ COUNT(*) as total_content
 FROM new_table 
 GROUP BY 1
 ```
+## Key Insiights
+1. The dataset contains a mix of TV shows and movies, allowing analysis of content distribution by type.
+
+2. After cleaning, we ensured that all null or missing values were removed for accurate analysis.
+
+3. Analysis of content by type shows the total number of movies versus TV shows, giving an overview of the platform’s offerings.
+
+4. The most common ratings for movies and TV shows were identified, helping understand target audiences and content suitability.
+
+5. We examined movies released in specific years (e.g., 2020) to understand annual content trends.
+
+6. The top countries with the most content on Netflix were identified, highlighting regions contributing most to the catalog.
+
+7. The longest movie in the dataset was determined, showing extremes in content duration.
+
+8. Content added in the last 5 years was extracted, giving insights into recent additions and trends.
+
+9. Analysis of directors (e.g., Rajiv Chilaka) and actors (e.g., Salman Khan) shows popular contributors and their presence on Netflix.
+
+10. TV shows with more than 5 seasons were identified, revealing long-running series.
+
+11. Content was analyzed by genre, showing which categories are most common across the platform.
+
+12. The average number of content releases per year in India was calculated, showing yearly trends in regional content production.
+
+13. Movies categorized as Documentaries were listed to identify educational or informational content.
+
+14. Actors with the highest number of appearances in Indian content were identified, highlighting prolific contributors.
+
+15. Content was classified based on keywords in descriptions (e.g., “kill” or “violence”) into Good or Bad content, providing insights into content tone and appropriateness.
 
 ## Findings and Conclusion
 
