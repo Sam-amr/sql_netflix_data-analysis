@@ -241,7 +241,7 @@ COUNT(*) as total_content
 FROM new_table 
 GROUP BY 1
 ```
-## Key Insiights
+## Key Insights
 1. The dataset contains a mix of TV shows and movies, allowing analysis of content distribution by type.
 
 2. After cleaning, we ensured that all null or missing values were removed for accurate analysis.
